@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Tp 2 </title>
+	 <script src="lib/angular/angular.js"></script>
+	 <script type="text/javascript" src="app.js"></script>
+	 <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	 <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+</head>
+<body class="container" ng-app="myApp">
+	<hr/>
+		<h1 style="text-align: center ; color: red ;" > BOUNIETE Safae </h1>
+		 <hr/>
+
+	<h3 style="color: blue ; "> Filtre 1: Uppercase </h3>
+	<table> 
+		<tr>
+			<td> <input class="form-control"  ng-model='input1'> </td>
+			<td> {{input1 | uppercase}} </td>
+		</tr>
+	</table>
+
+	<hr/>
+	<h3 style="color: blue ; "> Filtre 2: Uppercase et trim </h3>
+	<table> 
+		<tr>
+			<td> <input class="form-control"  ng-model='input2'> </td>
+			<td> {{input2 | uppercase : trim}} </td>
+		</tr>
+	</table>
+			<hr/>
+		 <div ng-controller="ListCtrl">
+			<h3 style="color: blue ; "> Filtre 3: OrderBy </h3>
+			<input  ng-model="item">
+			<button class="btn btn-danger" ng-click="add()">add</button>
+			<ul><li ng-repeat="e in items track by $index | orderBy:true">
+			{{ e }}
+			</li></ul>
+		</div>
+	
+		<hr/>
+		 <div ng-controller="myCtrl1">
+		<h3 style="color: blue ; "> Filtre 4: Uppercase JavaScript </h3>
+		<table> 
+		<tr>
+			<td> <input class="form-control" ng-model='input1'> </td>
+			<td><button class="btn btn-danger" ng-click='toUppercasee()'>add </button> </td>
+		<td>{{input2}}</td>
+		</tr>
+		</table>
+		</div>
+		<hr/>
+		<h3 style="color: blue ; "> Filtre 5: number </h3>
+	<table> 
+		<tr>
+			<td> <input class="form-control"  type="number" ng-model='var1'> </td>
+			<td> {{var1 | number }} </td>
+		</tr>
+	</table>
+	<hr/>
+	<h3 style="color: blue ; "> Filtre 6: currency </h3>
+	<table> 
+		<tr>
+			<td> <input class="form-control"  type="number" ng-model='var2'> </td>
+			<td> {{var2 | currency }} </td>
+		</tr>
+	</table>
+	<hr/>
+	<div ng-controller="myCtrl2">
+	<h3 style="color: blue ; "> Filtre 7: Uppercase et lowercase </h3>
+	<table> 
+		<tr>
+			<td> <input class="form-control" ng-model='input1'> </td>
+			<td><button class="btn btn-success" ng-click='toUppercasee()'>Uppercase </button> </td>
+			<td><button class="btn btn-warning" ng-click='toLowercasee()'>Lowercase </button> </td>
+		<td>{{input2}}</td>
+		</tr>
+		</table>
+		</div>
+		<hr/>
+		<div ng-controller="date1">
+	<h3 style="color: blue ; "> Filtre 8: Date </h3>
+	<table> 
+		<tr>
+			
+			<button class="btn btn-danger" ng-click='dateAjrd()'> Today </button>
+		    <td>{{dateAjrd | date :'dd-MM-yyyy'}}</td>
+		</tr>
+		</table>
+		</div>
+		<hr/>
+		<div ng-controller="date1">
+	<h3 style="color: blue ; "> Filtre 9: LimitTo </h3>
+	<div ng-controller="limiToCtrl">
+		<table>
+			<tr>
+				<td> Limit {{numbers}} to:</td>
+				<td> <input class="form-control"  type="number" step="1" ng-model="numLimit"></td>
+				<td> {{ numbers | limitTo:numLimit }}</td>
+			</tr>
+			<tr>
+				<td> Limit {{letters}} to:</td>
+				<td><input class="form-control"  type="number" step="1" ng-model="letterLimit"></td>
+				<td>{{ letters | limitTo:letterLimit }}</td>
+				
+			</tr>
+		</table>
+		<hr/>
+			<h3 style="color: blue ; ">Filtre 10 : orderBy for Objects</h3>
+	<div ng-controller="MyCtrl3">
+		<h4 > Order by the property 'gender'</h4>
+		<ul ng-repeat="x in ninjas | orderBy:'gender'">
+			<li>{{ x }}</li>
+		</ul>
+		<h4> Order by the property 'name'</h4>
+		<ul ng-repeat="x in ninjas | orderBy:'name'">
+			<li>{{ x }}</li>
+		</ul>
+		<h4> Order by a function (lowercase last)</h4>
+		<ul ng-repeat="x in ninjas | orderBy:lowercaseLas">
+			<li>{{ x }}</li>
+		</ul>
+		<h4> Order by an array of properties or functions</h4>
+		<ul ng-repeat="x in ninjas | orderBy:['-gender','name']">
+			<li>{{ x }}</li>
+		</ul>
+	</div>
+
+
+</body>
+</html>

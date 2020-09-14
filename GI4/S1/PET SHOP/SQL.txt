@@ -1,0 +1,15 @@
+CREATE TABLE `petshop`.`Utilisateur` (
+ `Username` VARCHAR(25) NOT NULL , 
+`Password` VARCHAR(25) NOT NULL , 
+`Email` VARCHAR(25) NOT NULL ,
+ `Phone` INT(10) NOT NULL , 
+`Company` VARCHAR(25) NOT NULL ,
+ `Addres` VARCHAR(25) NOT NULL ) ENGINE = InnoDB;
+
+
+
+INSERT INTO `Utilisateur`(`Username`, `Password`, `Email`, `Phone`, `Company`, `Addres`) VALUES ("Manale","123", "chakirmanale@gmail.com", "0615425487", "EnsaoComp", "Home sweet Home")
+
+-------------------------------------------
+CREATE TABLE `petshop`.`Pets` ( `Name` VARCHAR(30) NOT NULL , `Category` VARCHAR(30) NOT NULL , `Price` DOUBLE NOT NULL , `Description` VARCHAR(200) NOT NULL , `More details` VARCHAR(500) NOT NULL , `Image` VARCHAR(30) NOT NULL ) ENGINE = InnoDB
+-------------------------------

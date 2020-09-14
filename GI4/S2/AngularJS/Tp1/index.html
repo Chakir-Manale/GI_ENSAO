@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tp Angular Js </title>
+	<script src="lib/angular/angular.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body ng-app="myApp">
+		 <hr/>
+		<h1 style="text-align: center ; color: red ;" > BOUNIETE Safae </h1>
+		 <hr/>
+	  	<h1 style="color: blue ; "> TP0: Premier pas avec AngularJs </h1>
+		<table>
+			<tr>
+				<td>Nom :</td>
+				<td> <input type="text" ng-model="nom" /><br/></td>
+			</tr>
+			<tr>
+				<td>Ville :</td>
+				<td> <input type="text" ng-model="ville" /></td>
+			</tr>
+		</table>
+	    <p ng-show="nom && ville "> Bonjour <b>{{nom}}</b>,votre ville est <b> {{ville}} </b>.</p>
+	
+
+	 <hr/>
+
+	 <h1 style="color: blue ; "> TP1: La somme de deux entiers </h1>
+		<table>
+			<tr>
+				<td>Saisir la valeur de A :</td>
+				<td> <input type="number" ng-model="var1" /><br/></td>
+			</tr>
+			<tr>
+				<td>Saisir la valeur de B :</td>
+				<td> <input type="number" ng-model="var2" /></td>
+			</tr>
+		</table>
+	    <p ng-show="var1 && var2 "> La somme de <b>{{var1}}</b> et <b> {{var2}} est {{var1+var2}}</b>.</p>
+	</div >
+
+	<hr/>
+
+		<div ng-controller="MyCtrl">
+			<h1 style="color: blue ; "> TP2: Controleurs et Data Binding </h1>
+			<input type="text" ng-model="src">
+			<button ng-click="copy()">Copier</button>
+			<h3>{{dst}}</h3>
+		</div>
+
+	<hr/>
+
+		<div ng-controller="MyCtrl1">
+			<h1 style="color: blue ; "> TP3:Scopes et RootScope </h1>
+			<input type="text" ng-model="src">
+			<button ng-click="copy()">Copier</button>
+		</div>
+		<h3>{{dist}}</h3>
+
+	<hr/>
+
+	 <div ng-controller="ListCtrl">
+			<h1 style="color: blue ; "> TP3:Template – ng-repeat </h1>
+			<input ng-model="item">
+			<button ng-click="add()">add</button>
+			<ul><li ng-repeat="e in items  track by $index">
+			{{ e }}
+			</li></ul>
+	</div>
+
+	<hr/>
+
+	<h1 style="color: blue ; "> TP4:Template – visibilité </h1>
+	<input type="checkbox" ng-model="checked">
+    <span ng-hide="checked">non coché</span>
+    <input type="text" ng-model="data">
+    <ul ng-switch on="data" >
+    <li ng-switch-when="toto">data==toto</li>
+    <li ng-switch-when="truc">data==truc</li>
+    <li ng-switch-default ng-show="data">data!=toto and data!=truc</li>
+    </ul>
+
+    <hr/>
+
+    <h1 style="color: blue ; ">TP4: Template – style</h1>
+    <div ng-init="style={color:'green'}">
+		<button ng-click="style={color:'red'}">Rouge</button>
+		<button ng-click="style={color:'black'}">Noir</button>
+		<span ng-style="style">test</span>
+		<pre>style={{style}}</pre>
+	</div>
+
+    <hr/>
+
+	<h1 style="color: blue ; ">TP4: Template – formulaire</h1>
+	<form>
+		<input name="input" type="text"  ng-model="text" ng-pattern="/^[a-z]{3,6}$/" required>
+		<button ng-disabled="!myForm.$valid" type="submit">Envoyer</button>
+		<span class="error" ng-show="myForm.input.$error.required">Nécessaire</span>
+		<span class="error" ng-show="myForm.input.$error.pattern">3 à 6 lettres miniscules </span>
+    </form>
+
+    <hr/>
+
+	<h1 style="color: blue ; ">TP4: Template – événements</h1>
+   	<div ng-controller="ListCtrl2"></div>
+		<span ng-click="onEvent('click')">click</div>
+		<div ng-mousedown="onEvent('down')">down</div>
+		<div ng-mouseup="onEvent('up')">up</div>
+		<div ng-mouseenter="onEvent('enter')">enter</div>
+		<div ng-mouseleave="onEvent('leave')">leave</div>
+		<div ng-mouseover="onEvent('over')">over</div>
+	</div>
+	<input ng-model="data" ng-change="onEvent('change')">
+
+	 <hr/>
+
+	<h1 style="color: blue ; ">TP4: Template – les liens et les images</h1>
+	<div ng-controller="MyCtrl2">
+		<div ng-repeat="item in items"> <a ng-href="{{item.img}}"> <img ng-src="{{item.rimg}}"> </a> </div>
+    </div>
+
+    <hr/>
+
+    <h1 style="color: blue ; ">TP4: Template – utilisation des filtres </h1>
+    <div ng-controller="ListCtrl3">
+		<input ng-model="item">
+		<button ng-click="add()">add</button>
+		<input ng-model="query">
+		<ul><li ng-repeat="e in items  | filter:query">
+		{{ e }}
+		</li></ul>
+	</div>
+
+
+</body>
+</html>

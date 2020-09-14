@@ -1,0 +1,1 @@
+document.getElementById("error-message").classList.remove("disabled");

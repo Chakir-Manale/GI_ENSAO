@@ -1,0 +1,21 @@
+
+figure {
+    width: 33%;
+    float: left;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    display: inline-block;
+    font-family: arial;
+    font-style: italic;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+table{
+    margin-left: 550px;
+    font-family: arial;
+    font-size: 20px;
+}
