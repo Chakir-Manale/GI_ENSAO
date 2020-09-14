@@ -1,0 +1,16 @@
+--------------SERVLETS ---------------
+doPost() / doGet() / ..... 
+public init() throws SrvletException {
+// initialisation des attributs de la servlet 
+}
+
+PrintWriter out=respnse.getWriter() 
+--> out.println (result);
+
+---------------------------------------
+Call a java class in a servlet : 
+--------------
+<%@ page import="PackageName.className" %>
+
+<%@ page import="PackageName.*" %>
+<%= ClassName.Method() %>

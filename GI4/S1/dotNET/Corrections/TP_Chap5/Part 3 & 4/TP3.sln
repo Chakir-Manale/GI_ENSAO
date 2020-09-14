@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP3.Part1", "TP3.Part1\TP3.Part1.csproj", "{61AE095D-91B2-4F7F-BC16-9DF3E1FE119A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP3.Part2", "TP3.Part2\TP3.Part2.csproj", "{609FDC16-0DCA-487F-90AF-502091F90205}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61AE095D-91B2-4F7F-BC16-9DF3E1FE119A}.Debug|x86.ActiveCfg = Debug|x86
+		{61AE095D-91B2-4F7F-BC16-9DF3E1FE119A}.Debug|x86.Build.0 = Debug|x86
+		{61AE095D-91B2-4F7F-BC16-9DF3E1FE119A}.Release|x86.ActiveCfg = Release|x86
+		{61AE095D-91B2-4F7F-BC16-9DF3E1FE119A}.Release|x86.Build.0 = Release|x86
+		{609FDC16-0DCA-487F-90AF-502091F90205}.Debug|x86.ActiveCfg = Debug|x86
+		{609FDC16-0DCA-487F-90AF-502091F90205}.Debug|x86.Build.0 = Debug|x86
+		{609FDC16-0DCA-487F-90AF-502091F90205}.Release|x86.ActiveCfg = Release|x86
+		{609FDC16-0DCA-487F-90AF-502091F90205}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

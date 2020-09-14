@@ -1,0 +1,7 @@
+C:\Users\pc\Desktop\Mohamed\GI4\S1\dotNET\Corrections\TP_Chap4\Part3\TP_Chap4_Part3\bin\Debug\TP_Chap4_Part3.exe.config
+C:\Users\pc\Desktop\Mohamed\GI4\S1\dotNET\Corrections\TP_Chap4\Part3\TP_Chap4_Part3\bin\Debug\TP_Chap4_Part3.exe
+C:\Users\pc\Desktop\Mohamed\GI4\S1\dotNET\Corrections\TP_Chap4\Part3\TP_Chap4_Part3\bin\Debug\TP_Chap4_Part3.pdb
+C:\Users\pc\Desktop\Mohamed\GI4\S1\dotNET\Corrections\TP_Chap4\Part3\TP_Chap4_Part3\obj\Debug\TP_Chap4_Part3.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\Mohamed\GI4\S1\dotNET\Corrections\TP_Chap4\Part3\TP_Chap4_Part3\obj\Debug\TP_Chap4_Part3.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\Mohamed\GI4\S1\dotNET\Corrections\TP_Chap4\Part3\TP_Chap4_Part3\obj\Debug\TP_Chap4_Part3.exe
+C:\Users\pc\Desktop\Mohamed\GI4\S1\dotNET\Corrections\TP_Chap4\Part3\TP_Chap4_Part3\obj\Debug\TP_Chap4_Part3.pdb
