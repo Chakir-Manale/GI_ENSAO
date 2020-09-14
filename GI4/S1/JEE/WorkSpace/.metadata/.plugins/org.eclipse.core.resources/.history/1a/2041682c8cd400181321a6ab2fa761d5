@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>TP2 Servlet</title>
+</head>
+<body>
+<style>
+		body {
+			background: orange;
+			 color: yellow
+		}
+
+		.form-container > form > div{
+			margin: 1rem 0;
+		}
+	</style>
+</head>
+<body>
+<h2 style ="color:yellow">Identifiez-vous : </h2>
+<hr>
+<div id="infos">
+<form action="ident" method="get">
+Username :
+    <input type="text" name="username"/>
+<br><br>
+Password : 
+      <input type="text" name="password"/>
+<hr>
+<button type="submit" id="send">se connecter</button>
+
+
+</form>
+</div>
+
+</body>
+</html>
+
+
+

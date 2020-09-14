@@ -1,0 +1,10 @@
+C:\MJ C# TP\TP1\TP1\bin\Debug\TP1.exe.config
+C:\MJ C# TP\TP1\TP1\bin\Debug\TP1.exe
+C:\MJ C# TP\TP1\TP1\bin\Debug\TP1.pdb
+C:\MJ C# TP\TP1\TP1\obj\Debug\TP1.csprojResolveAssemblyReference.cache
+C:\MJ C# TP\TP1\TP1\obj\Debug\TP1.csproj.CoreCompileInputs.cache
+C:\MJ C# TP\TP1\TP1\obj\Debug\TP1.exe
+C:\MJ C# TP\TP1\TP1\obj\Debug\TP1.pdb
+C:\Users\bouni\Desktop\TP1\bin\Debug\TP1.exe.config
+C:\Users\bouni\Desktop\TP1\obj\Debug\TP1.exe
+C:\Users\bouni\Desktop\TP1\obj\Debug\TP1.pdb

@@ -1,0 +1,4 @@
+127.0.0.1 - - [20/Oct/2018:18:21:16 +0100] "GET / HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [20/Oct/2018:18:21:18 +0100] "GET /TP2/Identification.html HTTP/1.1" 200 608
+0:0:0:0:0:0:0:1 - - [20/Oct/2018:18:21:43 +0100] "GET /TP2/Identification.html HTTP/1.1" 200 602
+0:0:0:0:0:0:0:1 - - [20/Oct/2018:18:21:48 +0100] "GET /TP2/ident?username=&password= HTTP/1.1" 404 1005

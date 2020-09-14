@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+D:\cours\GI4\JEE\WorkSpace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+144863546.index
+270234133.index
+3108431294.index
+3999617137.index
+1114432361.index
+1587571132.index
+3535991529.index

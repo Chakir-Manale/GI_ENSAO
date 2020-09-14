@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Formulaire </title>
+</head>
+<style type="text/css">
+html{
+background-color:lightblue;
+}
+h1,label{
+color:black;
+}
+label{
+display:inline-block;
+width:20%;
+padding:10px;
+}
+input,select{
+padding:5px;
+}
+
+.btn{
+padding:5px;
+margin-left:30px;
+background-color:lightgrey;
+}
+div{
+border-color:black;
+border-width:2px 0px 2px 0px;
+border-style:solid;
+padding:10px
+}
+html{
+background-color:BEE1F6;
+}
+</style>
+<body>
+<p class="jumbotron">
+<h1>Enregistrement de vos coordonnées</h1>
+</p>
+<form method="get" action="Formulaire">
+<div>
+<label >Civilité</label>
+<select  name="civilite">
+<option value="Monsieur">Monsieur</option>
+<option value="Madame">Madame </option>
+</select><br>
+<label for="nom">Nom :</label>
+<input name="nom" type="text" /><br>
+<label for="prenom" >Prénom : </label>
+<input type="text" name="prenom" ><br>
+</div><br>
+<input class="btn" type="submit" value="Envoyer le formulaire">
+<!--<input type="reset" class="btn" value="Tout effacer">-->
+</form>
+</body>
+</html>

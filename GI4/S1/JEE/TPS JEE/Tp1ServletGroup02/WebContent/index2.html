@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Formulaire</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style type="text/css">
+  .form-control{
+  	width:30%;
+
+  	}
+  	  	.container{
+  	padding:40px;
+  }
+ 
+  </style>
+</head>
+<title>Formulaire</title>
+</head>
+<header>
+<center><h2><em>Enregistrement de vos coordonnées</em></h2></center>
+</header>
+<div class="container">
+<form method="post" action="Formulaire" class="form-group">
+<div>
+<label >Civilité</label>
+<select  name="civilite" class="form-control">
+<option value="Monsieur">Monsieur</option>
+<option value="Madame">Madame </option>
+<option value="Mademoiselle">Mademoiselle</option>
+</select><br>
+<label for="nom">Nom :</label>
+<input name="nom" type="text" class="form-control" placeholder="Votre nom"><br>
+<label for="prenom" >Prénom : </label>
+<input type="text" name="prenom" class="form-control" placeholder="Votre Prénom"><br>
+</div><br>
+<input class="btn btn-primary"" type="submit" value="Envoyer le formulaire">
+<input type="reset" class="btn btn-primary"" value="Tout effacer">
+</form>
+</div>
+</body>
+</html>
