@@ -1,0 +1,73 @@
+/frigos/frigo[@couleur='noir'][following-sibling::node()[@couleur='gris']]
+
+/frigos/frigo[@couleur='noir'][following-sibling::node()[@couleur='gris']][position()=2]
+____________________________________________________________
+(//frigo[@couleur='noir'],//frigo[@couleur='gris'])
+(//frigo[@couleur='noir'],//frigo[@couleur='gris'])[2]
+remove((//frigo[@couleur='noir'],//frigo[@couleur='gris']),2)
+(//frigo/name/text())
+index-of(//frigo/name/text() , 'Omega frigo')
+(//frigo/name)
+index-of((//name) , //name[.='Omega frigo'])
+(1 to 100)[.mod 2=1]
+count((1 to 100)[.mod 2=1])
+insert-before(//name/text(),2,'Nord frigo')
+_________
+afficher le nom de chauqe élément dans le document
+	//element()/name()
+	for $i in //* return name($i)
+afficher le nom de chaque attribut dans le document
+	for $i in //*@ return name($i)
+afficher le nom et le prix des frigos
+	for $i  in //* return  if (name($i) = 'frigo') then concat($i/name/text(),' ',$i/prix/text())  else null
+	(//frigo/name,//frigo/prix)
+	for $i in //frigo return ($i/name,$i/prix)
+pour la séquence générer dans 11 quelles sont les positions de l'élément 'frigo'
+	
+afficher la liste des noms des frigos dans l'ordre décroissant
+	
+sachant que 1 euro = 11.2 dh, afficher le nom de chaque frigo suivi par son prix en DH
+	
+
+-----------------XQUERY---------------
+1)
+doc("Films.xml")//FILM[@titre = 'Reservoir dogs']/MES/text()
+or
+for $f in doc("Films.xml")//FILM where $f/@titre='Reservoir dogs' return $f/MES/text()
+____
+2)
+for $a in doc("Artistes.xml")//ARTISTE where $a/NOM/text()="Keitel" and $a/PRENOM/text()="Harvey" 
+for $f in doc("Films.xml")//FILM  where $f/ROLES/ROLE/@acteur=$a/@ID/string() return $f/@titre/string()
+
+or
+
+for $f in doc("Films.xml")//FILM , $a in doc("Artistes.xml")//ARTISTE where $f/ROLES/ROLE/@acteur=$a/@ID and $a/NOM/text()="Keitel" and $a/PRENOM/text()="Harvey" return $f/@titre/string()
+____
+3)
+for $a in doc("Artistes.xml")//ARTISTE return
+element ACTEUR{
+    element NOM {$a/NOM/text()},
+    element FILMS {
+        for $f in doc("Films.xml")//FILM where $f/ROLES/ROLE/@acteur=$a/@ID return element FILM {
+        attribute titre{$f/@titre}
+        }
+    }
+}
+____
+4)
+for $a in doc("Artistes.xml")//ARTISTE 
+let $f:=doc("Films.xml")//FILM[./ROLES/ROLE/@acteur=$a/@ID] 
+return if (count($f)>1) then $a/NOM/text()
+else()
+______
+5)auto-jointure
+
+for $mes in doc("Films.xml")//MES let $f:=doc("Films.xml")//FILM[./MES=$mes] return
+<REALISATEUR>
+    <NOM>{$mes}</NOM>
+    <FILMS>
+        {for $fl in $f return <FILM>{$fl/@titre}</FILM>}
+    </FILMS>
+</REALISATEUR>
+
+____

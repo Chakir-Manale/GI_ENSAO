@@ -1,0 +1,1 @@
+//book[position() lt last()]

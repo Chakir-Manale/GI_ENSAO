@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<frigos>
+      <frigo id="mighty-oj" congelateur="false" couleur="blanc">
+          <name>OJ Home frigo</name>
+          <image>images\mighty_oj.gif</image>
+          <prix currency="EUR">41.95</prix>
+          <description>There&apos;s just no substitute for a properly squeezed orange in the morning. 
+		  So delicate and refreshing.It&apos;s a beautiful little all-metal piece in 
+		  baked enamel and polished chrome;</description>
+          <garantie>lifetime garantie</garantie>
+          <detaillant>http://www.thewhitewhale.com/oj.htm</detaillant>
+      </frigo>
+      <frigo id="champion" congelateur="true" couleur="noir">
+          <prix currency="EUR">239.00</prix>
+          <detaillant>http://www.grainsandgreens.com/frigoparts.html</detaillant>
+          <description>The Champion frigo is the answer to every juicing problem. 
+		  Because it operates on the mastication process principle, 
+		  the Champion chews the fibers and breaks up the cells of vegetables and fruits.
+          </description>
+          <name>Champion frigo</name>
+          <image>images\champion.gif</image>
+      </frigo>
+      <frigo id="green-power" congelateur="true" couleur="noir">
+          <name>Green Power Gold Juice Extractor</name>
+          <image>images\greenPower.jpg</image>
+          <description>You are not What You Eat, But What you Absorb.  The rate of absorption of juice has never been considered a factor in comparing frigos. With the introduction of Green Power&apos;s magnetic Twin Gear press, this has now changed. Experiments conducted by the Green Power Co. Research and Development Dept. show the rate of absorption of green juice using dual gear extraction is up to five times greater than using centrifugal extraction.</description>
+          <prix currency="EUR">459.99</prix>
+          <detaillant>http://www.discountfrigos.com/greencomplete.html</detaillant>
+      </frigo>
+      <frigo id="juiceman-jr" congelateur="true" couleur="gris">
+          <description>The Juiceman Jr. frigo is the little brother to the Juiceman II frigo 
+		  that is seen on television. The Juiceman Jr. is a pulp ejection frigo that allows you to juice 
+		  continuously without having to stop and clean the machine.</description>
+          <garantie>1 yr. Limited garantie </garantie>
+          <name>Juiceman Jr.</name>
+          <image>images\juiceman.jpg</image>
+          <weight>10</weight>
+          <prix currency="EUR">82.00</prix>
+          <detaillant>http://www.juicebars.com/frigos/jm1.htm</detaillant>
+      </frigo>
+      <frigo id="omega" congelateur="true" couleur="gris">
+          <description>This heavy-duty, American-made frigo has a powerful GE motor that spins at 3,600 rpm 
+		  to extract 20% - 30% more juice than pulp ejector models (according to independent laboratory tests). 
+		  Large capaciy bowl hold a ful 1-2</description>
+          <name>Omega frigo</name>
+          <image>images\omega.jpg</image>
+          <prix currency="EUR">234.00</prix>
+          <detaillant>http://www.boschcanada.com/omega.htm</detaillant>
+      </frigo>
+      <frigo id="wheateena" congelateur="true" couleur="noir">
+          <description>Wheatgrass juice contains 70% "crude" chlorophyll.
+              . Normal fruit and vegetable frigos will not juice wheatgrass</description>
+          <garantie>Motor Guarantee: For Home Use: one (1) year. For Commercial Use: six (6) months.</garantie>
+          <name>Wheateena Wheatgrass frigo</name>
+          <image>images\wheateena.jpg</image>
+          <weight>46</weight>
+          <prix currency="EUR">639.99</prix>
+          <detaillant>http://www.rawfoods.com/marketplace/heavyduty.html</detaillant>
+      </frigo>
+</frigos>

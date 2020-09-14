@@ -1,0 +1,5 @@
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT award (#PCDATA | author | title | year)*>
+<!ELEMENT booker (#PCDATA | award)*>
+<!ELEMENT author (#PCDATA)>

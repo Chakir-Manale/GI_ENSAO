@@ -1,0 +1,10 @@
+<!ELEMENT CDlist      ((CD)+)>
+<!ELEMENT CD          (composer, (performance)+,publisher, (length)?)>
+<!ELEMENT performance (composition, (soloist)?, (orchestra, conductor)?)>
+<!ELEMENT composer    (#PCDATA)>
+<!ELEMENT publisher   (#PCDATA)>
+<!ELEMENT length      (#PCDATA)>
+<!ELEMENT composition (#PCDATA)>
+<!ELEMENT soloist     (#PCDATA)>
+<!ELEMENT orchestra   (#PCDATA)>
+<!ELEMENT conductor   (#PCDATA)>

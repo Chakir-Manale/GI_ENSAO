@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<!DOCTYPE booker SYSTEM "booker.dtd">
+<booker>
+    <award>
+        <author>Kingsley Amis</author>
+        <title>The Old Devils</title><year>1986</year>
+    </award>
+    <award>
+        <author>Margaret Atwood</author>
+        <title>The Blind Assassin</title>
+        <year>2000</year>
+    </award>
+    <award>
+        <author>Pat Barker</author>
+        <title>The Ghost Road</title>
+        <year>1995</year>
+    </award>
+    <award>
+        <author>John Berger</author>
+        <title>G</title>
+        <year>1972</year>
+    </award>
+    <award>
+        <author>Anita Brookner</author>
+        <title>Hotel du Lac</title>
+        <year>1984</year>
+    </award>
+    <award>
+        <author>A S Byatt</author>
+        <title>Possession</title>
+        <year>1990</year>
+    </award>
+    <award>
+        <author>Peter Carey</author>
+        <title>Oscar and Lucinda</title>
+        <year>1988</year>
+    </award>
+    <award>
+        <author>J M Coetzee</author>
+        <title>Disgrace</title>
+        <year>1999</year>
+    </award>
+    <award>
+        <author>J M Coetzee</author>
+        <title>Life and Times of Michael K</title>
+        <year>1983</year>
+    </award>
+    <award>
+        <author>Roddy Doyle</author>
+        <title>Paddy Clarke Ha Ha Ha</title>
+        <year>1993</year>
+    </award>
+    <award>
+        <author>J G Farrell</author>
+        <title>The Siege of Krishnapur</title><year>1973</year>
+    </award>
+    <award>
+        <author>Penelope Fitzgerald</author>
+        <title>Offshore</title>
+        <year>1979</year>
+    </award>
+    <award>
+        <author>William Golding</author><title>Rites of Passage</title><year>1980</year>
+    </award>
+    <award>
+        <author>Nadine Gordimer</author><title>The Conservationist</title><year>1974</year>
+    </award>
+    <award>
+        <author>Keri Hulme</author><title>The Bone People</title><year>1985</year>
+    </award>
+    <award>
+        <author>Kazuo Ishiguro</author>
+        <title>The Remains of the Day</title><year>1989</year>
+    </award>
+    <award>
+        <author>Ruth Prawer Jhabvala</author>
+        <title>Heat &amp; Dust</title><year>1975</year>
+    </award>
+    <award>
+        <author>James Kelman</author>
+        <title>How Late It Was, How Late</title>
+        <year>1994</year>
+    </award>
+    <award>
+        <author>Thomas Keneally</author>
+        <title>Schindler's Ark</title>
+        <year>1982</year>
+    </award>
+    <award>
+        <author>Penelope Lively</author>
+        <title>Moon Tiger</title>
+        <year>1987</year>
+    </award>
+    <award>
+        <author>Ian McEwan</author>
+        <title>Amsterdam</title>
+        <year>1998</year>
+    </award>
+    <award>
+        <author>Stanley Middleton</author>
+        <title>Holiday</title>
+        <year>1974</year>
+    </award>
+    <award>
+        <author>Iris Murdoch</author>
+        <title>The Sea</title>
+        <year>1978</year>
+    </award>
+    <award>
+        <author>V S Naipaul</author>
+        <title>In a Free State</title>
+        <year>1971</year>
+    </award>
+    <award>
+        <author>P H Newby</author>
+        <title>Something To Answer For</title>
+        <year>1969</year>
+    </award>
+    <award>
+        <author>Ben Okri</author>
+        <title>The Famished Road</title>
+        <year>1991</year>
+    </award>
+    <award>
+        <author>Michael Ondaatje</author>
+        <title>The English Patient</title>
+        <year>1992</year>
+    </award>
+    <award>
+        <author>Arundhati Roy</author>
+        <title>The God of Small Things</title>
+        <year>1997</year>
+    </award>
+    <award>
+        <author>Bernice Rubens</author>
+        <title>The Elected Member</title>
+        <year>1970</year>
+    </award>
+    <award>
+        <author>Salman Rushdie</author>
+        <title>Midnight's Children</title>
+        <year>1981</year>
+    </award>
+    <award>
+        <author>Paul Scott</author>
+        <title>Staying On</title>
+        <year>1977</year>
+    </award>
+    <award>
+        <author>David Storey</author>
+        <title>Saville</title>
+        <year>1976</year>
+    </award>
+    <award>
+        <author>Graham Swift</author>
+        <title>Last Orders</title>
+        <year>1996</year>
+    </award>
+    <award>
+        <author>Barry Unsworth</author>
+        <title>Sacred Hunger</title>
+        <year>1992</year>
+    </award>
+</booker>

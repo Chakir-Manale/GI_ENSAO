@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!ELEMENT disques (groupe*, disque*)  >
+<!ELEMENT groupe (nom,membre+) >
+<!ATTLIST groupe nom ID #REQUIRED>
+<!ELEMENT nom (#PCDATA) >
+<!ELEMENT membre (#PCDATA) >
+<!ELEMENT disque (interprète, titr)>
+<!ELEMENT interprète EMPTY >
+<!ATTLIST interprète nom IDREF #REQUIRED>
+<!ELEMENT titre (#PCDATA) >

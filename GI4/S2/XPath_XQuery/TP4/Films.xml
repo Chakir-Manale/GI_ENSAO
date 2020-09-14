@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<FILMS>
+<FILM titre='Vertigo'>
+ <ANNEE>1958</ANNEE>
+ <GENRE>Drame</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Hitchcock</MES>
+ <ROLES>
+  <ROLE acteur='15'>John Ferguson</ROLE>
+  <ROLE acteur='16'>Madeleine Elster</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Alien'>
+ <ANNEE>1979</ANNEE>
+ <GENRE>Science-fiction</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Scott</MES>
+ <ROLES>
+  <ROLE acteur='5'>Ripley</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Titanic'>
+ <ANNEE>1997</ANNEE>
+ <GENRE>Drame</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Cameron</MES>
+ <ROLES>
+  <ROLE acteur='109'>Rose DeWitt Bukater</ROLE>
+  <ROLE acteur='110'>Jack Dawson</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Sacrifice'>
+ <ANNEE>1986</ANNEE>
+ <GENRE>Drame</GENRE>
+ <PAYS>FR</PAYS>
+ <MES>Tarkovski</MES>
+ <ROLES>
+ </ROLES>
+</FILM>
+<FILM titre='Volte/Face'>
+ <ANNEE>1997</ANNEE>
+ <GENRE>Action</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Woo</MES>
+ <ROLES>
+  <ROLE acteur='11'>Sean Archer/Castor Troy</ROLE>
+  <ROLE acteur='12'>Castor Troy/Sean Archer</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Sleepy Hollow'>
+ <ANNEE>1999</ANNEE>
+ <GENRE>Fantastique</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Burton</MES>
+ <ROLES>
+  <ROLE acteur='14'>Constable Ichabod Crane</ROLE>
+  <ROLE acteur='96'>Katrina Anne Van Tassel</ROLE>
+  <ROLE acteur='97'>Le cavalier</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='American Beauty'>
+ <ANNEE>1999</ANNEE>
+ <GENRE>Comédie</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Mendes</MES>
+ <ROLES>
+  <ROLE acteur='18'>Lester Burnham</ROLE>
+  <ROLE acteur='19'>Carolyn Burnham</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Impitoyable'>
+ <ANNEE>1992</ANNEE>
+ <GENRE>Western</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Eastwood</MES>
+ <ROLES>
+  <ROLE acteur='20'>William Munny</ROLE>
+  <ROLE acteur='21'>Little Bill Dagget</ROLE>
+  <ROLE acteur='22'>Ned Logan</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Gladiator'>
+ <ANNEE>2000</ANNEE>
+ <GENRE>Drame</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Scott</MES>
+ <ROLES>
+  <ROLE acteur='23'>Maximus</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Blade Runner'>
+ <ANNEE>1982</ANNEE>
+ <GENRE>Action</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Scott</MES>
+ <ROLES>
+  <ROLE acteur='24'>Deckard</ROLE>
+  <ROLE acteur='25'>Batty</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Piège de cristal'>
+ <ANNEE>1988</ANNEE>
+ <GENRE>Action</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>McTierman</MES>
+ <ROLES>
+  <ROLE acteur='27'>McClane</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='58 minutes pour vivre'>
+ <ANNEE>1990</ANNEE>
+ <GENRE>Action</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Harlin</MES>
+ <ROLES>
+  <ROLE acteur='27'>McLane</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Van Gogh'>
+ <ANNEE>1990</ANNEE>
+ <GENRE>Drame</GENRE>
+ <PAYS>FR</PAYS>
+ <MES>Pialat</MES>
+ <ROLES>
+  <ROLE acteur='30'>Van Gogh</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Seven'>
+ <ANNEE>1995</ANNEE>
+ <GENRE>Policier</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Fincher</MES>
+ <ROLES>
+  <ROLE acteur='18'>Doe</ROLE>
+  <ROLE acteur='22'>Somerset</ROLE>
+  <ROLE acteur='32'>Mills</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='L_armée des douze singes'>
+ <ANNEE>1995</ANNEE>
+ <GENRE>Science-fiction</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Gilliam</MES>
+ <ROLES>
+  <ROLE acteur='27'>Cole</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Le nom de la rose'>
+ <ANNEE>1986</ANNEE>
+ <GENRE>Policier</GENRE>
+ <PAYS>FR</PAYS>
+ <MES>Annaud</MES>
+ <ROLES>
+  <ROLE acteur='35'>Baskerville</ROLE>
+  <ROLE acteur='36'>de Melk</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Pulp fiction'>
+ <ANNEE>1994</ANNEE>
+ <GENRE>Action</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Tarantino</MES>
+ <ROLES>
+  <ROLE acteur='11'>Vincent Vega</ROLE>
+  <ROLE acteur='27'>Butch Coolidge</ROLE>
+  <ROLE acteur='38'>Jules Winnfield</ROLE>
+  <ROLE acteur='39'>Jody</ROLE>
+  <ROLE acteur='40'>Mia Wallace</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Mary à tout prix'>
+ <ANNEE>1998</ANNEE>
+ <GENRE>Comédie</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Farrelly</MES>
+ <ROLES>
+  <ROLE acteur='42'>Mary Jensen Matthews</ROLE>
+  <ROLE acteur='43'>Pat Healy</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Terminator'>
+ <ANNEE>1984</ANNEE>
+ <GENRE>Science-fiction</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Cameron</MES>
+ <ROLES>
+  <ROLE acteur='44'>Terminator</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Les dents de la mer'>
+ <ANNEE>1975</ANNEE>
+ <GENRE>Horreur</GENRE>
+ <PAYS>FR</PAYS>
+ <MES>Spielberg</MES>
+ <ROLES>
+  <ROLE acteur='46'>Martin Brody</ROLE>
+  <ROLE acteur='47'>Quint</ROLE>
+  <ROLE acteur='48'>Matt Hooper</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Le silence des agneaux'>
+ <ANNEE>1990</ANNEE>
+ <GENRE>Policier</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Demme</MES>
+ <ROLES>
+  <ROLE acteur='50'>Dr. Hannibal Lecter</ROLE>
+  <ROLE acteur='51'>Clarice Starling</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Le prince d_Egypte'>
+ <ANNEE>1998</ANNEE>
+ <GENRE>Dessin animé</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Chapman</MES>
+ <ROLES>
+  <ROLE acteur='53'>Moise</ROLE>
+  <ROLE acteur='54'>Ramses</ROLE>
+  <ROLE acteur='55'>
+</ROLE>
+  <ROLE acteur='56'>Miriam</ROLE>
+  <ROLE acteur='57'>Aaron</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Godzilla'>
+ <ANNEE>1998</ANNEE>
+ <GENRE>Action</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Emmerich</MES>
+ <ROLES>
+  <ROLE acteur='59'>Dr. Nikos Tatopoulos</ROLE>
+  <ROLE acteur='60'>Philippe Roaché</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Matrix'>
+ <ANNEE>1999</ANNEE>
+ <GENRE>Science-fiction</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Wachowski</MES>
+ <ROLES>
+  <ROLE acteur='62'>Neo</ROLE>
+  <ROLE acteur='63'>Morpheus</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Kagemusha'>
+ <ANNEE>1980</ANNEE>
+ <GENRE>Guerre</GENRE>
+ <PAYS>JP</PAYS>
+ <MES>Kurozawa</MES>
+ <ROLES>
+ </ROLES>
+</FILM>
+<FILM titre='Les pleins pouvoirs'>
+ <ANNEE>1997</ANNEE>
+ <GENRE>Policier</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Eastwood</MES>
+ <ROLES>
+  <ROLE acteur='20'>Luther Whitney</ROLE>
+  <ROLE acteur='21'>Le président Richmond</ROLE>
+  <ROLE acteur='69'>Seth Frank</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Le gendarme et les extra-terrestres'>
+ <ANNEE>1978</ANNEE>
+ <GENRE>Comédie</GENRE>
+ <PAYS>FR</PAYS>
+ <MES>Girault</MES>
+ <ROLES>
+  <ROLE acteur='72'>Inspecteur Cruchot</ROLE>
+  <ROLE acteur='73'>Adjudant Gerber</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Les frères pétards'>
+ <ANNEE>1986</ANNEE>
+ <GENRE>Comédie</GENRE>
+ <PAYS>FR</PAYS>
+ <MES>Palud</MES>
+ <ROLES>
+  <ROLE acteur='73'>Momo's Father</ROLE>
+  <ROLE acteur='75'>Aline</ROLE>
+  <ROLE acteur='76'>Une policière</ROLE>
+  <ROLE acteur='77'>Manu</ROLE>
+  <ROLE acteur='78'>Momo</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Le monde perdu'>
+ <ANNEE>1997</ANNEE>
+ <GENRE>Horreur</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Spielberg</MES>
+ <ROLES>
+  <ROLE acteur='57'>Dr. Ian Malcolm</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Rain Man'>
+ <ANNEE>1988</ANNEE>
+ <GENRE>Drame</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Levinson</MES>
+ <ROLES>
+  <ROLE acteur='65'>Charlie Babbitt</ROLE>
+  <ROLE acteur='80'>Raymond Babbitt</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Top Gun'>
+ <ANNEE>1986</ANNEE>
+ <GENRE>Action</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Scott</MES>
+ <ROLES>
+  <ROLE acteur='53'>Iceman</ROLE>
+  <ROLE acteur='65'>Lt. Pete 'Maverick' Mitchell</ROLE>
+  <ROLE acteur='82'>Charlotte Blackwood</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Les bronzés font du ski'>
+ <ANNEE>1979</ANNEE>
+ <GENRE>Comédie</GENRE>
+ <PAYS>FR</PAYS>
+ <MES>Leconte</MES>
+ <ROLES>
+  <ROLE acteur='75'>Nathalie Morin</ROLE>
+  <ROLE acteur='76'>Christiane</ROLE>
+  <ROLE acteur='84'>Jean-Claude Dus</ROLE>
+  <ROLE acteur='85'>Jérôme</ROLE>
+  <ROLE acteur='86'>Popeye</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='MICROCOSMOS'>
+ <ANNEE>1996</ANNEE>
+ <GENRE>Documentaire</GENRE>
+ <PAYS>FR</PAYS>
+ <MES>Pernnou</MES>
+ <ROLES>
+ </ROLES>
+</FILM>
+<FILM titre='Psychose'>
+ <ANNEE>1960</ANNEE>
+ <GENRE>Thriller</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Hitchcock</MES>
+ <ROLES>
+  <ROLE acteur='88'>Norman Bates</ROLE>
+  <ROLE acteur='89'>Lila Crane</ROLE>
+  <ROLE acteur='90'>Marion Crane</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Le retour du Jedi'>
+ <ANNEE>1983</ANNEE>
+ <GENRE>Science-fiction</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Marquand</MES>
+ <ROLES>
+  <ROLE acteur='24'>Han Solo</ROLE>
+  <ROLE acteur='92'>Luke Skywalker</ROLE>
+  <ROLE acteur='93'>Princesse Leia</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Les oiseaux'>
+ <ANNEE>1963</ANNEE>
+ <GENRE>Horreur</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Hitchcock</MES>
+ <ROLES>
+  <ROLE acteur='94'>Mitch Brenner</ROLE>
+  <ROLE acteur='95'>Melanie Daniels</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Reservoir dogs'>
+ <ANNEE>1992</ANNEE>
+ <GENRE>Policier</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Tarantino</MES>
+ <ROLES>
+  <ROLE acteur='37'>Mr. Brown</ROLE>
+  <ROLE acteur='98'>Mr. White/Larry</ROLE>
+  <ROLE acteur='99'>Freddy Newendyke/Mr. Orange</ROLE>
+  <ROLE acteur='100'>Nice Guy Eddie</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Eyes Wide Shut'>
+ <ANNEE>1999</ANNEE>
+ <GENRE>Thriller</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Kubrick</MES>
+ <ROLES>
+  <ROLE acteur='65'>Docteur William "Bill" Harford</ROLE>
+  <ROLE acteur='102'>Alice Harford</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Shining'>
+ <ANNEE>1980</ANNEE>
+ <GENRE>Horreur</GENRE>
+ <PAYS>FR</PAYS>
+ <MES>Kubrick</MES>
+ <ROLES>
+  <ROLE acteur='103'>Jack Torrance</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Pas de printemps pour Marnie'>
+ <ANNEE>1964</ANNEE>
+ <GENRE>Thriller</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Hitchcock</MES>
+ <ROLES>
+  <ROLE acteur='35'>
+                       Mark R</ROLE>
+  <ROLE acteur='95'>Marnie Edgar</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Fenêtre sur cour'>
+ <ANNEE>1954</ANNEE>
+ <GENRE>Suspense</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Hitchcock</MES>
+ <ROLES>
+ </ROLES>
+</FILM>
+<FILM titre='La mort aux trousses'>
+ <ANNEE>1959</ANNEE>
+ <GENRE>Suspense</GENRE>
+ <PAYS>USA</PAYS>
+ <MES>Hitchcock</MES>
+ <ROLES>
+  <ROLE acteur='105'>Roger O. Thornhill</ROLE>
+  <ROLE acteur='106'>Eve Kendall</ROLE>
+  <ROLE acteur='107'>Philipp Vandamm</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Jeanne d_Arc'>
+ <ANNEE>1999</ANNEE>
+ <GENRE>Guerre</GENRE>
+ <PAYS>FR</PAYS>
+ <MES>Besson</MES>
+ <ROLES>
+  <ROLE acteur='80'></ROLE>
+  <ROLE acteur='112'>Jeanne d'Arc</ROLE>
+  <ROLE acteur='113'>Yolande d'Aragon</ROLE>
+  <ROLE acteur='114'>Charles VII</ROLE>
+  <ROLE acteur='115'>Dunois</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Le cinquième élément'>
+ <ANNEE>1997</ANNEE>
+ <GENRE>Science-fiction</GENRE>
+ <PAYS>FR</PAYS>
+ <MES>Besson</MES>
+ <ROLES>
+  <ROLE acteur='27'>Major Korben Dalla</ROLE>
+  <ROLE acteur='112'>Leeloo</ROLE>
+  <ROLE acteur='116'>Jean-Baptiste Emmanuel Zorg</ROLE>
+  <ROLE acteur='117'>Vito Cornelius</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Léon'>
+ <ANNEE>1994</ANNEE>
+ <GENRE>Action</GENRE>
+ <PAYS>FR</PAYS>
+ <MES>Besson</MES>
+ <ROLES>
+  <ROLE acteur='60'>Léon</ROLE>
+  <ROLE acteur='116'>Norman Stansfield</ROLE>
+  <ROLE acteur='118'>Mathilda</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Nikita'>
+ <ANNEE>1990</ANNEE>
+ <GENRE>Thriller</GENRE>
+ <PAYS>FR</PAYS>
+ <MES>Besson</MES>
+ <ROLES>
+  <ROLE acteur='115'>Bob</ROLE>
+  <ROLE acteur='119'>Nikita</ROLE>
+  <ROLE acteur='120'>Marco</ROLE>
+ </ROLES>
+</FILM>
+<FILM titre='Le grand bleu'> 
+<ANNEE>1988</ANNEE>
+ <GENRE>Drame</GENRE>
+ <PAYS>FR</PAYS>
+ <MES>Besson</MES>
+ <ROLES>
+  <ROLE acteur='39'>Johanna</ROLE>
+  <ROLE acteur='60'>Enzo Molinari</ROLE>
+  <ROLE acteur='121'>Jacques Mayol</ROLE>
+ </ROLES>
+</FILM>
+</FILMS>
+

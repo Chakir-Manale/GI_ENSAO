@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bib>
+    <book title="Comprendre XSLT">
+        <author><la>Auteur1</la><fi>B.</fi></author>
+        <author><la>Auteur2</la><fi>P.</fi></author>
+        <publisher>O’Reilly</publisher>
+        <price>28.95</price>
+    </book>
+    <book year="2001" title="Spatial Databases">
+        <author><la>Auteur2</la><fi>P.</fi></author>
+        <author><la>Auteur4</la><fi>M.</fi></author>
+        <author><la>Auteur5</la><fi>A.</fi></author>
+        <publisher>Morgan Kaufmann Publishers</publisher>
+        <price>35.00</price>
+    </book>
+</bib>

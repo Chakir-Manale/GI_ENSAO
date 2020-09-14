@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<disques>
+<groupe nom="muse">
+<nom>MUSE</nom>
+<membre>Matthew Bellamy</membre>
+<membre>Dominic Howard</membre>
+<membre>Chris Wolstenholme</membre>
+</groupe>
+<groupe nom="feeder">
+<nom>FEEDER</nom>
+<membre>Grant Nicholas</membre>
+<membre>Taka Hirose</membre>
+<membre>Jon Henry Lee</membre>
+</groupe>
+<disque>
+<interprète nom="muse"/>
+<titre>Showbiz</titre>
+</disque>
+<disque>
+<interprète nom="feeder"/>
+<titre>Echo Park</titre>
+</disque>
+<disque>
+<interprète nom="muse"/>
+<titre>Origin of symmetry</titre>
+</disque>
+<disque>
+<interprète nom="feeder"/>
+<titre>Comfort In Sound</titre>
+</disque>
+</disques>

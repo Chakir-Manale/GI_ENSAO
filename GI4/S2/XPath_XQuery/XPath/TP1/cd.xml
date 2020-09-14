@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE CDlist SYSTEM "cd.dtd">
+
+<CDlist>
+<CD>
+    <composer>Johannes Brahms</composer>
+    <performance>
+      <composition>Piano Concerto No. 2</composition>
+      <soloist>Emil Gilels</soloist>
+      <orchestra>Berlin Philharmonic</orchestra>
+      <conductor>Eugen Jochum</conductor>
+    </performance>
+    <performance>
+      <composition>Piano Concerto No. 3</composition>
+      <orchestra>London Symphony Orchestra</orchestra>
+      <conductor>Eugen Jochum</conductor>
+    </performance>
+    <performance>
+      <composition>Fantasias Op. 116</composition>
+      <soloist>Emil Gilels</soloist>
+    </performance>
+    <performance>
+      <composition>Fantasias Op. 54</composition>
+      <soloist>Amy Gibber</soloist>	
+      <orchestra>London Symphony Orchestra</orchestra>
+      <conductor>Peter Zokarovic</conductor>	
+    </performance>
+    <publisher>Deutsche Grammophon</publisher> <!-- length is
+    expressed in ISO standard duration format: 1h 13' 37'' -->
+    <length>PT1H13M37S</length>
+  </CD>
+</CDlist>
