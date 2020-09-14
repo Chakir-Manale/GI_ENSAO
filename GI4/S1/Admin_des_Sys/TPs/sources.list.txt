@@ -1,0 +1,32 @@
+# Debian stretch, dépôt principal
+deb http://deb.debian.org/debian/ stretch main
+deb-src http://deb.debian.org/debian/ stretch main
+
+
+# Debian stretch, mises-à-jour de sécurité
+deb http://security.debian.org/ stretch/updates main
+deb-src http://security.debian.org/ stretch/updates main
+
+# Debian stretch, mises-à-jour "volatiles"
+deb http://deb.debian.org/debian/ stretch-updates main
+deb-src http://security.debian.org/ stretch/updates main
+
+# Debian stretch, dépôt de rétroportages ("backports")
+deb http://deb.debian.org/debian stretch-backports main
+deb-src http://deb.debian.org/debian stretch-backports main
+
+# Debian Stretch, dépôt principal + paquets non libres
+deb http://deb.debian.org/debian/ stretch main contrib non-free
+deb-src http://deb.debian.org/debian/ stretch main contrib non-free
+
+# Debian Stretch, mises-à-jour de sécurité + paquets non libres
+deb http://security.debian.org/ stretch/updates main contrib non-free
+deb-src http://security.debian.org/ stretch/updates main contrib non-free
+
+# Debian stretch, mises-à-jour "volatiles" + paquets non libres
+deb http://deb.debian.org/debian/ stretch-updates main contrib non-free
+deb-src http://deb.debian.org/debian/ stretch-updates main contrib non-free
+
+# Debian stretch, dépôt de rétroportages ("backports")
+deb http://deb.debian.org/debian stretch-backports main contrib non-free
+deb-src http://deb.debian.org/debian stretch-backports main contrib non-free
