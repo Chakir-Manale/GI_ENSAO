@@ -1,0 +1,35 @@
+
+									TO DO :
+
+Partie I : comprendre le fonctionnement d'un réseaux de neurones de type Perceptron( un perceptron = 3 neurones )
+
+Télécharger le fichier perceptron_simple_1.py et interpreter ce qu'il fait.
+
+
+Télécharger le fichier perceptron_sigmoide_simple.py et interpreter ce qu'il fait.
+
+Télécharger le fichier perceptron_descente_gradient_stochastique.py et interpreter ce qu'il fait.
+
+
+
+Télécharger le fichier perceptron_avec_descente_gradient_stochastique.py et executer le pas a pas et interpreter les résultats obtenus.
+
+
+Télécharger le fichier perceptron_avec_backpropagation.py  et interpreter les résultats obtenus.
+
+
+
+
+Partie II :
+
+
+Perceptron multicouche avec descente de gradient et retropropagation du gradient.
+
+http://penseeartificielle.fr/focus-reseau-neurones-artificiels-perceptron-multicouche/
+
+
+
+Programme en Java pour programmer un perceptron simple avec comme fonction d'activation une sigmoïde.
+
+http://emmanuel.adam.free.fr/site/spip.php?article183
+

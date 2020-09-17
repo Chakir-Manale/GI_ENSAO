@@ -1,0 +1,27 @@
+OCL Environnement
+
+- UML EX3
+
+context Reservation
+	inv: places < max
+
+context Reservation::reserver()
+	post: places = places@pre+1
+
+context Reservation::annuler()
+	post: places = places@pre-1
+	pre: places <> 0 // means it shouldn't be null
+
+
+
+- UML EX4
+
+context Company
+	inv: manager.isUnemployed() = False and
+		 manager.age > 40 and
+		 employee -> isNotEmpty() // inline
+
+context Person
+	inv: if isUnemployed() = True then
+		 job.salary -> sum() < 500
+		 endif

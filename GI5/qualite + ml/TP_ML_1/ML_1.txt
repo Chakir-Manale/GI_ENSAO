@@ -1,0 +1,35 @@
+
+
+
+
+Partie I : Demos
+
+Demo sur l'algorithme des k-plus proche voisins.
+https://www.kaggle.com/grrddm/a-simple-knn-classifier-for-the-iris-dataset
+Cliquer sur le bouton copy and édit et exécuter les instructions une après l'autre avant d'exécuter sur Run ALL
+
+
+Demo pour la régression logistique sur le dataset Iris.
+
+Aller a l'adresse suivante 
+
+https://www.kaggle.com/dnogin/iris-dataset-solve-with-logistic-regression
+
+Cliquer sur le bouton copy and édit et exécuter les instructions une après l'autre avant d'exécuter sur Run ALL
+
+
+Partie II : environnement anaconda
+
+- Installer l'environnement Anaconda
+- Lancer JPyther Notebook
+
+Demo pour la régression linéaire et la régression quadratique sur le dataset pizza.
+
+- Executer pizza_1.py
+- Executer pizza_regression_1.py
+- Executer pizza_regression_2.py
+
+
+Partie III : 
+Aller dans l'adresse suivante : https://towardsdatascience.com/knn-using-scikit-learn-c6bed765be75
+Réécrire les instruction dans votre environnement Anaconda et commenter.

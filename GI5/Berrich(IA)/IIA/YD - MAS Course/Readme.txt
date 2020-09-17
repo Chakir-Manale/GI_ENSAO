@@ -1,0 +1,1 @@
+Le cours des SMA est dédier pour les GI de l’ENSAO pour l’année universitaire 2019-2020, il est strictement interdit de le distribuer ou le partager via internet.
